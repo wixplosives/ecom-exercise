@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import styles from './site-footer.module.scss';
 import { ReactComponent as FacebookIcon } from '../../assets/svg/facebook.svg';
 import { ReactComponent as TwitterxIcon } from '../../assets/svg/twitterx.svg';
@@ -17,10 +16,10 @@ export interface FooterProps {
  */
 export const Footer = ({ className }: FooterProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div>
             <div className={styles.details}>
                 <div>Contact Jane Doe</div>
-                <div className={styles.small}>
+                <div>
                     Mail: info@mysite.com
                     <br />
                     Tel: 123-456-7890
@@ -30,7 +29,7 @@ export const Footer = ({ className }: FooterProps) => {
                     San Francisco, CA 94158
                 </div>
             </div>
-            <div className={styles.social}>
+            <div>
                 <a href="/">
                     <TwitterxIcon className={styles.icon} />
                 </a>
