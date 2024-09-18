@@ -31,7 +31,7 @@
     "@wixc3/react-board": "^3.0.0",
     "sass": "^1.77.8",
     "typescript": "^5.5.3",
-    "vite": "^4.5.2",
+    "vite": "^4.5.5",
     "vite-plugin-svgr": "^3.3.0"
   }
 }
